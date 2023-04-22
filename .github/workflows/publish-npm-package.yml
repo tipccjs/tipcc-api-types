@@ -9,7 +9,6 @@ permissions:
 
 jobs:
   build_publish:
-    needs: [set_version_to_release_version]
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Project
