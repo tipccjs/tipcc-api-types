@@ -1,6 +1,6 @@
 {
   "name": "@tipccjs/tipcc-api-types",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "tip.cc API typings that are kept up to date for use in API related applications.",
   "main": "lib/v0.js",
   "types": "lib/v0.d.ts",
