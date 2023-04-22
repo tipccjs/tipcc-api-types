@@ -1,6 +1,7 @@
 import type { ApiCurrencyIdentifier } from '../../globals';
 
 export * from './account';
+export * from './currencies';
 
 export const APIVersion = '0';
 
