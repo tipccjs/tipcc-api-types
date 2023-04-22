@@ -1,4 +1,4 @@
-import type { APICryptoCurrency, APIMonetary } from './currencies';
+import type { APICurrencySymbol, APIMonetary } from './currencies';
 
 export enum APITransactionDirection {
   Incoming = 'incoming',
@@ -42,7 +42,7 @@ export interface APIConnection {
 }
 
 export interface APIWallet {
-  code: APICryptoCurrency;
+  code: APICurrencySymbol;
   name: string;
   balance: APIMonetary;
   usd_value: APIMonetary;

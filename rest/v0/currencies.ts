@@ -1,4 +1,8 @@
-import { APICryptoCurrency, APIExchangeRate, APIFiatCurrency } from '../../v0';
+import type {
+  APICryptoCurrency,
+  APIFiatCurrency,
+  APIExchangeRate,
+} from '../../v0';
 
 export interface RESTGetAPICurrenciesCryptoCurrenciesResult {
   cryptocurrencies: APICryptoCurrency[];

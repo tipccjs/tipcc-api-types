@@ -5,9 +5,9 @@ import type {
   APIWallet,
   APIWithdrawl,
 } from '../../payloads/v0/account';
-import {
+import type {
   APICoin,
-  APICryptoCurrency,
+  APICurrencySymbol,
   APIMonetary,
 } from '../../payloads/v0/currencies';
 
@@ -34,7 +34,7 @@ export interface RESTGetAPIAccountWalletPath {
  * https://api.tip.cc/docs/static/index.html#/wallet/get_api_v0_account_wallets__code__addresses
  */
 export interface RESTGetAPIAccountWalletAddressesResult {
-  code: APICryptoCurrency;
+  code: APICurrencySymbol;
   name: string;
   master?: string;
   addresses: {
