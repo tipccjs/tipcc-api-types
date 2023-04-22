@@ -42,7 +42,7 @@ export interface APICryptoCurrency {
   feeUnit: string;
   format: {
     scale: number;
-    units: APICryptoCurrencyUnit;
+    units: APICryptoCurrencyUnit[];
   };
   options: {
     extras?: string;
@@ -55,6 +55,6 @@ export interface APIFiatCurrency {
   name: string;
   format: {
     scale: number;
-    units: APIFiatCurrencyUnit;
+    units: APIFiatCurrencyUnit[];
   };
 }
