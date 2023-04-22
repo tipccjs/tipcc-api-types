@@ -1,0 +1,23 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "alwaysStrict": true,
+    "lib": ["esnext"],
+    "module": "commonjs",
+    "noUnusedParameters": true,
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
+    "noUnusedLocals": true,
+    "removeComments": false,
+    "target": "ES2022",
+    "strictNullChecks": true,
+    "preserveConstEnums": true,
+    "exactOptionalPropertyTypes": true,
+    "outDir": "./lib",
+    "strict": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "exclude": ["node_modules", "lib"]
+}

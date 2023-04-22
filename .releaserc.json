@@ -1,0 +1,9 @@
+{
+  "pkgRoot": "dist",
+  "branches": [
+    "release/+([0-9])?(.{+([0-9]),x}).x",
+    "main",
+    { "name": "dev", "prerelease": true, "channel": "beta" }
+  ],
+  "plugins": ["@semantic-release/npm"]
+}
