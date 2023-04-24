@@ -26,7 +26,7 @@ export interface APICryptoCurrencyUnit {
   scale: number;
   aliases?: string[];
   minDecimals?: number;
-  optionalDecimals?: boolean;
+  optionalDecimals?: number;
   min?: number;
 }
 
