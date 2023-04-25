@@ -18,11 +18,15 @@ export interface APITransaction<
   direction: APITransactionDirection;
   type: APITransactionType;
   amount: APIMonetary;
-  fee: APIMonetary;
+  fee: APIMonetary | null;
   usd_value: APIMonetary;
   service: APIService;
-  chat_id: TransactionType extends APITransactionType.Tip ? string : null;
-  subchat_id: TransactionType extends APITransactionType.Tip ? string : null;
+  chat_id: TransactionType extends APITransactionType.Tip
+    ? string | null
+    : null;
+  subchat_id: TransactionType extends APITransactionType.Tip
+    ? string | null
+    : null;
   sender: TransactionType extends APITransactionType.Tip ? APIConnection : null;
   recipient: TransactionType extends APITransactionType.Tip
     ? APIConnection
