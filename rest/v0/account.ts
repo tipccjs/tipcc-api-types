@@ -151,6 +151,8 @@ export interface RESTGetAPIAccountTransactionPath {
  */
 export interface RESTGetAPIAccountTransactionsResult {
   transactions: APITransaction[];
+  total: number;
+  more: boolean;
 }
 
 /**
