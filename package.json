@@ -2,8 +2,6 @@
   "name": "@tipccjs/tipcc-api-types",
   "version": "1.0.7",
   "description": "tip.cc API typings that are kept up to date for use in API related applications.",
-  "main": "lib/v0.js",
-  "types": "lib/v0.d.ts",
   "scripts": {
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx --fix",
     "prettify": "prettier --write .",
