@@ -15,7 +15,7 @@ export interface APICoin {
 export interface APIExchangeRate {
   code: string;
   name: string;
-  usd_value?: APIMonetary;
+  usd_value: APIMonetary | null;
 }
 
 export interface APICryptoCurrencyUnit {

@@ -3,7 +3,7 @@ import type {
   APITip,
   APITransaction,
   APIWallet,
-  APIWithdrawl,
+  APIWithdrawal,
 } from '../../payloads/v0/account';
 import type {
   APICoin,
@@ -106,7 +106,7 @@ export interface RESTPostAPIAccountWalletWithdrawalPath {
  */
 export interface RESTPutAPIAccountWalletWithdrawalResult {
   id: string;
-  withdrawal: APIWithdrawl;
+  withdrawal: APIWithdrawal;
   balance: APIMonetary;
 }
 
