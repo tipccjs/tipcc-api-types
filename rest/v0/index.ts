@@ -65,14 +65,14 @@ export const Routes = {
   },
   /**
    * Route for:
-   * - GET `/account/wallets/transactions` - List of user's tips, deposits and withdrawals
+   * - GET `/account/transactions` - List of user's tips, deposits and withdrawals
    */
   accountWalletTransactions() {
     return '/account/transactions' as const;
   },
   /**
    * Route for:
-   * - GET `/account/wallets/transactions/{id}` - Get a single tip, deposit or withdrawal by ID
+   * - GET `/account/transactions/{id}` - Get a single tip, deposit or withdrawal by ID
    */
   accountWalletTransaction(id: string) {
     return `/account/transactions/${id}` as const;
