@@ -40,8 +40,8 @@ export enum APIService {
 
 export interface APIConnection {
   identifier: string;
-  username?: string;
-  avatar_url?: string;
+  username: string | null;
+  avatar_url: string | null;
   service: APIService;
 }
 
@@ -52,7 +52,7 @@ export interface APIWallet {
   usd_value: APIMonetary;
 }
 
-export interface APIWithdrawl {
+export interface APIWithdrawal {
   id: string;
   txid: string;
   amount: APIMonetary;
