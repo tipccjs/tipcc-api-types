@@ -1,6 +1,6 @@
 {
   "name": "@tipccjs/tipcc-api-types",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "tip.cc API typings that are kept up to date for use in API related applications.",
   "scripts": {
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx --fix",
